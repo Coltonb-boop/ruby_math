@@ -2,8 +2,8 @@ class Question
 
   def generate_question
 
-    first = rand(1..20)
-    second = rand(1..20)
+    first = rand(1..10)
+    second = rand(1..10)
     answer = first + second
 
     question = {
